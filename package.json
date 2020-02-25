@@ -1,0 +1,36 @@
+{
+  "name": "behance_taste_Heaven_website_design",
+  "version": "1.0.0",
+  "description": "For practice purposes only. I convert the examples of behance web pages to code, applying good practices. To keep me learning the design trends and development of avant-garde web pages.  You can find in design in behance in the following link",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --colors",
+    "watch": "webpack --watch --colors",
+    "start": "webpack-dev-server --open --color"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moisesmartinezliranzo/behance_taste_Heaven_website_design.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/moisesmartinezliranzo/behance_taste_Heaven_website_design/issues"
+  },
+  "homepage": "https://github.com/moisesmartinezliranzo/behance_taste_Heaven_website_design#readme",
+  "devDependencies": {
+    "css-loader": "^3.4.2",
+    "file-loader": "^5.0.2",
+    "node-sass": "^4.13.1",
+    "sass-loader": "^8.0.2",
+    "style-loader": "^1.1.3",
+    "webpack": "^4.41.6",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3"
+  },
+  "dependencies": {
+    "normalize.css": "^8.0.1"
+  }
+}
